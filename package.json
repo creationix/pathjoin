@@ -1,4 +1,5 @@
 {
   "name": "pathjoin",
+  "version": "0.0.0",
   "main": "pathjoin.js"
 }
