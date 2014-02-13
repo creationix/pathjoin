@@ -1,1 +1,4 @@
-{ "main": "pathjoin.js" }
+{
+  "name": "pathjoin",
+  "main": "pathjoin.js"
+}
