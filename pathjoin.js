@@ -23,7 +23,7 @@ function pathJoin(/* path segments */) {
     else newParts.push(part);
   }
   // Preserve the initial slash if there was one.
-  if (parts[0][0] === "/") newParts.unshift("");
+  if (parts[0] === "") newParts.unshift("");
   // Turn back into a single string path.
   return newParts.join("/") || (newParts.length ? "/" : ".");
 }
