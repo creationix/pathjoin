@@ -8,6 +8,7 @@ function pathJoin(/* path segments */) {
   // Split the inputs into a list of path commands.
   var parts = [];
   for (var i = 0, l = arguments.length; i < l; i++) {
+    if (arguments[i] === undefined || arguments[i] === null) continue;
     parts = parts.concat(arguments[i].split("/"));
   }
   // Interpret the path commands to get the new resolved path.
